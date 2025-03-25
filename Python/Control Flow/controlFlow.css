@@ -1,0 +1,125 @@
+body {
+    font-family: 'OCR A', sans-serif;
+    background-color: #121212;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.head {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    margin: 20px auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00ff00;
+    background-color: transparent;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, 0.7);
+    color: #333;
+}
+
+hr {
+    border: 1px solid rgba(0, 255, 0, 0.7);
+    width: 80%;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+footer {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 75%;
+}
+
+/* 📌 Code container: Two files in a row */
+.code-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+/* 📌 Code block design */
+.code-block {
+    width: 45%; /* Adjusts for two columns */
+    background-color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+pre {
+    background-color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    text-transform: none;
+    font-family: monospace;
+    color: #00ff00;
+}
+
+pre code {
+    display: block;
+    counter-reset: line-number;
+}
+
+pre code span {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+}
+
+pre code span::before {
+    content: counter(line-number) " ";
+    counter-increment: line-number;
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    text-align: right;
+    color: rgba(0, 255, 0, 0.5);
+}

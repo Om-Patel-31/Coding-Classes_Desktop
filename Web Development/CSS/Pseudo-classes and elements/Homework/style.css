@@ -1,0 +1,13 @@
+button:hover{
+    background-color: darkblue;
+    color:honeydew;
+}
+
+p::before{
+    content: "Note:";
+    color: blue;
+}
+
+button:hover::after{
+    content: "(Go ahead, click it!)";
+}

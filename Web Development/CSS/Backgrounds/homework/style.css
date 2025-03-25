@@ -1,0 +1,6 @@
+.bg-mystery{
+    background-color: powderblue;
+    background-image: url("C:\Users\om31d\Downloads\istockphoto-1305282522-612x612.jpg"), linear-gradient(to bottom, rgb(250, 206, 213), rgb(255, 168, 183));
+    background-repeat: no-repeat;
+    background-position: center;
+}

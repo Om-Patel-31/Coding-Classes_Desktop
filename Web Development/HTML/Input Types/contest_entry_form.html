@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest Entry Form</title>
+</head>
+<h1>“Pimp My Shoes” Contest Entry Form</h1>
+<body>
+    <fieldset>
+        <legend>Contest Entry Form</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="mail">Email Address:</label>
+        <input type="text" id="mail" name="mail"><br>
+        <label for="num">Telephone Number:</label>
+        <input type="text" id="num" name="num"><br>
+        <label for="input">My Shoes are SO old...</label><br>
+        <textarea rows="5" cols="50" name="description" placeholder="No more than 300 characters long"></textarea>
+    </fieldset><br>
+    <h1>Design your custom Forcefields:</h1>
+<body>
+    <form action="examples.html">
+    <fieldset>
+        <legend>Custom Shoe Design</legend>
+        <fieldset>
+
+            <legend>Color <i>(choose one):</i></legend>
+            <input type="radio" id="red" name="red" value="Red">
+            <label for="red">Red</label><br>
+            <input type="radio" id="blue" name="blue" value="Blue">
+            <label for="blue">Blue</label><br>
+            <input type="radio" id="black" name="black" value="Black">
+            <label for="black">Black</label><br>
+            <input type="radio" id="silver" name="silver" value="Silver">
+            <label for="silver">Silver</label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Features <i>(Choose as many as you want)</i></legend>
+            <input type="checkbox" id="laces" name="laces">
+            <label for="laces">Sparkley Laces</label><br>
+            <input type="checkbox" id="logo" name="logo" checked>
+            <label for="logo">Metallic Logo</label><br>
+            <input type="checkbox" id="heels" name="heels">
+            <label for="heels">Light-up Heels</label><br>
+            <input type="checkbox" id="mp3" name="mp3">
+            <label for="mp3">MP3-enabled</label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Size</legend>
+            <label for="size">Sizes reflect standard men's sizes:</label>
+            <select id="size" name="size">
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </fieldset>
+    </fieldset><br>
+        <input type="button" name="pimp" id="pimp" value="Pimp My Shoes!"/>
+        <input type="reset"/>
+    </form>
+</body>
+</html>

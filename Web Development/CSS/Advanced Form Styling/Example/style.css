@@ -1,0 +1,30 @@
+.custom-input{
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-color: #eee;
+}
+
+.custom-input::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(avatar.png);
+    position: absolute;
+    left: 10px;
+}
+
+.responsive-form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px){
+    .responsive-form{
+        flex-direction: row;
+    }
+
+    .custom-input{
+        margin: 10px;
+    }
+}

@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+.custom-input {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    padding-left: 50px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+.custom-input::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #bbb;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff;
+    margin-right: 10px;
+}
+
+select {
+    width: 220px;
+    height: 40px;
+    background-color: #eee;
+    color:red;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+select:hover{
+    color:blue
+}
+
+select:focus{
+    color: green;
+}
+
+.responsive-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .responsive-form {
+        flex-direction: row;
+        align-items: center;
+    }
+    .custom-input {
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .responsive-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-input {
+        flex-grow: 1;
+    }
+}
+
+.custom-submit {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-submit:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #f8f8f8;
+}

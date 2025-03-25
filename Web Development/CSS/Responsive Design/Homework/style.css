@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    width: 33.33%;
+    margin: 0.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .footer-items {
+        width: 100%;
+        float: none;
+    }
+
+    main{
+        flex-direction: column;
+    }
+}

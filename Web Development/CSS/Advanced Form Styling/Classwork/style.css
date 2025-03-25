@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.responsive-form {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.button1 {
+    background: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background: #0056b3;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+.option1,
+.option2,
+.checkbox1 {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .responsive-form {
+        /* padding: 15px 20px; */
+        flex-direction: column;
+    }
+
+    .button1 {
+        width: 100%;
+    }
+}  
+
+@media (min-width: 600px) {
+    .responsive-form {
+        flex-direction: row;
+    }
+
+    .button1 {
+        width: 100%;
+    }
+}  

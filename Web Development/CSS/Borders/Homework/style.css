@@ -1,0 +1,18 @@
+.box1{
+    border-style: double;
+    border-width: 3px;
+    border-color: purple;
+}
+
+.box2{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: orange;
+}
+
+.box3{
+    border-style: groove;
+    border-width: 4px;
+    border-color: gray;
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: rgb(255,127,80);
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: 2px solid blue;
+}

@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #DFD9E2;
+    --secondary-color: #c3acce;
+}
+
+.themeBox1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.themeBox2.alt-theme{
+    --primary-color: #FFA69E;
+    --secondary-color: #FF7E6B;
+}
+
+.themeBox2{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}

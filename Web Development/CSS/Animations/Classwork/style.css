@@ -1,0 +1,14 @@
+.animatedBox{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    animation: changeBackground 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes changeBackground{
+    0%{color: white;}
+    50%{color:green}
+    100%{color: blue;}
+}

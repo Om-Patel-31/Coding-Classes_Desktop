@@ -1,0 +1,9 @@
+.blend-section{
+    background-color: rebeccapurple;
+    mix-blend-mode: screen;
+}
+
+.effects-image{
+    box-shadow: 5px 5px 5px #000000;
+    filter: blur(1px);
+}

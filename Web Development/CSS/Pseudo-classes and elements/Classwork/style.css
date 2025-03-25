@@ -1,0 +1,13 @@
+button:hover{
+    background-color: purple;
+    color: goldenrod;
+}
+
+p::before{
+    content: "Important";
+    color: red;
+}
+
+button:hover::after{
+    content: "(You know you want to!)";
+}

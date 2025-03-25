@@ -1,0 +1,19 @@
+/* General paragraph styles */
+p {
+    color: red;
+}
+
+/* Class selector */
+.text {
+    color: blue;
+}
+
+/* ID selector */
+#unique {
+    color: green;
+}
+
+/* important rule */
+p {
+    color: orange !important
+}

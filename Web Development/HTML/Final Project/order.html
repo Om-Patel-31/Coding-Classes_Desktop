@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: rgb(248, 114, 4);
+        }
+        header {
+            text-align: center;
+        }
+        .head {
+            border: 2px solid black;
+            width: auto;
+            height: auto;
+        }
+        img{
+            width: 50px;
+            height: 55px;
+            border-radius: 10px;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<header>
+    <img class="head" src="header.png" alt="pizza"><br>
+    <a href="home.html">Home|</a>
+    <a href="aboutus.html">About Us|</a>
+    <a href="order.html">Order Pizza|</a>
+    <a href="gallery.html">Photo Gallery|</a>
+    <a href="videos.html">Videos|</a>
+    <a href="contact.html">Contact US</a>
+    <hr>
+</header>
+<body>
+    <form action="order.html">
+    <p>Small-$11.55 | Medium-$15.25 | Large-$22.00 | X-Large-$25.00</p>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name"><br>
+        <label for="acc">Account No. </label>
+        <input type="number" id="acc" name="acc"><br>
+        <label for="phnm">Phone No. </label>
+        <input type="tel" id="phnm" name="phnm"><br>
+        <label for="dob">Date of Birth </label>
+        <input type="text" id="dob" name="dob" placeholder="yyyy-mm-dd"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Pizza size & Crust</legend>
+        <label for="size">Size:</label>
+        <select name="size" id="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+        </select>
+        <label for="crust">Crust:</label>
+        <select name="size" id="size">
+            <option>Regular Crust</option>
+            <option>Thin Crust</option>
+            <option>Handmade Pan*</option>
+            <option>Gluten Free Crust</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Cheeses</legend>
+        <input type="radio" id="moz" name="moz" value="moz">
+        <label for="moz">Mozzarella</label>
+        <input type="radio" id="fat" name="fat" value="fat">
+        <label for="fat">Reduced Fat</label>
+        <input type="radio" id="feta" name="feta" value="feta">
+        <label for="feta">Feta</label>
+    </fieldset>
+    <fieldset>
+        <legend>Sauces</legend>
+        <input type="radio" id="pzz" name="pzz" value="pzz">
+        <label for="pzz">Pizza Sauce</label>
+        <input type="radio" id="bbq" name="bbq" value="bbq">
+        <label for="bbq">BBQ Sauce</label>
+        <input type="radio" id="grl" name="grl" value="grl">
+        <label for="grl">Garlic Sauce</label>
+    </fieldset>
+    <fieldset>
+        <legend>Choose Toppings - $1.79 Each</legend>
+        <input type="checkbox" id="anch" name="anch">
+        <label for="anch">Anchovies</label><br>
+        <input type="checkbox" id="bcn" name="bcn">
+        <label for="bcn">Bacon</label><br>
+        <input type="checkbox" id="ham" name="ham">
+        <label for="ham">Ham</label><br>
+        <input type="checkbox" id="ppr" name="ppr">
+        <label for="ppr">Pepperoni</label><br>
+        <input type="checkbox" id="slmi" name="lmi">
+        <label for="slmi">Salami</label><br>
+        <input type="checkbox" id="ssg" name="ssg">
+        <label for="ssg">Sausage</label><br>
+        <input type="checkbox" id="brc" name="brc">
+        <label for="brc">Brocolli</label><br>
+        <input type="checkbox" id="olv" name="olv">
+        <label for="olv">Green Olives</label><br>
+        <input type="checkbox" id="ppr" name="ppr">
+        <label for="ppr">Green Pepper</label><br>
+        <input type="checkbox" id="mshr" name="mshr">
+        <label for="mshr">Mushrooms</label><br>
+        <input type="checkbox" id="oni" name="oni">
+        <label for="oni">Red Onions</label><br>
+        <input type="checkbox" id="rogar" name="rogar">
+        <label for="rogar">Roasted Garlic</label><br>
+    </fieldset>
+        <legend>Special Instructions</legend>
+    <textarea rows="5" cols="90" name="instructions"></textarea>
+    <input type="button" id="order" name="order" value="PLACE YOUR ORDER">
+    <input type="reset" value="START OVER"/>
+    </form>
+</body>
+<footer><p>Follow us:<img src="fb.png" alt="facebook logo"> <img src="twitter.png" alt="twitter logo"> <img src="yt.jpeg" alt="youtube logo"> ©Student name 2017</p>
+</footer>
+</html>

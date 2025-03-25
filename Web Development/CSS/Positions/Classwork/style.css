@@ -1,0 +1,12 @@
+.container span{
+    display: inline-block;
+    background-image: url("istockphoto-1305282522-612x612.jpg");
+    color:brown;
+    margin: 30px, 55px, 15px;
+}
+
+.box{
+    float: left 50%;
+    background-color: green;
+    padding: 10px;
+}

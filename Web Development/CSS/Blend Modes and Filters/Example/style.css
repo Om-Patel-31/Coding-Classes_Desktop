@@ -1,0 +1,17 @@
+body{
+    background-color: pink;
+}
+
+.blend-mode{
+    background-color: blue;
+    font-size: 2em;
+}
+
+.blend-mode p{
+    mix-blend-mode: screen;
+    color: yellow;
+}
+
+.advanced-filter{
+    filter: grayscale(100%) blur(5px);
+}

@@ -1,0 +1,15 @@
+.animatedBanner{
+    width: 300px;
+    height: 150px;
+    background-color:lightgray;
+    animation: colourShift;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes colourShift{
+    0%{background-color: lightgray;}
+    50%{background-color: aquamarine;}
+    100%{background-color: darkblue;}
+}

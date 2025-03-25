@@ -1,0 +1,13 @@
+.animated-button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    color:white;
+    border: none;
+    transition: background-color 2s, color 2s;
+}
+
+.animated-button:hover{
+    background-color: green;
+    color:black;
+}

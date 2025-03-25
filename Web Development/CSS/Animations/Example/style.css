@@ -1,0 +1,24 @@
+@keyframes moveBox {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 200px;
+        top: 0px;
+    }
+
+    100% {
+        left: 400px;
+        top: 0%;
+    }
+}
+
+.box {
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    animation: moveBox 5s infinite;
+}

@@ -1,0 +1,13 @@
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+p::before{
+    content:"Important";
+    color: red;
+}
+
+button:hover::after{
+    content: " (click me!)";
+}

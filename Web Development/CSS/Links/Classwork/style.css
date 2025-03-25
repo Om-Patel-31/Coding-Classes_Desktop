@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: 2px solid yellow;
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Anybody";
+  src: url("Web Development\CSS\Web Fonts\Classwork\Anybody-Regular.ttf");
+}
+
+.customFont {
+  font-family: "Anybody", sans-serif;
+  font-size: 28px;
+  text-shadow: 3px 20px 6px #353535;
+  background: linear-gradient(90deg, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:600px) {
+    .responsiveText{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:601px) {
+    .responsiveText{
+        font-size: 20px;
+    }
+}

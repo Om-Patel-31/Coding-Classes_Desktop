@@ -1,0 +1,39 @@
+:root {
+    --main-color: lightblue;
+    --accent-color: darkblue;
+}
+
+.styleBox1 {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.styleBox2 {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.styleBox3 {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.new-theme {
+    --main-color: lightgreen;
+    --accent-color: darkgreen;
+}

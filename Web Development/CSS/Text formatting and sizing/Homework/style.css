@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+p{
+    font-size: 16px;
+    color: rgba(0,139,139,0.8);
+    background-color: rgba(255, 182, 193, 0.3);
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h2{
+    font-family: "Lato", sans-serif;
+    color: rgb(153, 50, 204);
+    font-size: 32;
+}

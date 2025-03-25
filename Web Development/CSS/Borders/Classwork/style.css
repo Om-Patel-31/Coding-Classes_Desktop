@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blue;
+}
+
+.box{
+    height: 70px;
+    width: 190px;
+    margin:20px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: red;
+}
+
+.box{
+    height: 135px;
+    width: 90px;
+    margin: 45px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: green;
+    border-radius: 10px;
+}
+
+.box{
+    height: 200px;
+    width: 115px;
+    margin: 100px;
+    border-style: solid dashed ridge dotted;
+    border-color: gold silver chocolate wheat;
+    border-width: 10px 20px 35px 50px;
+}

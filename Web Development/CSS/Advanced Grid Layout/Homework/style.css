@@ -1,0 +1,25 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    flex-basis: 150px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    background: lightgreen;
+    border: 2px solid darkgreen;
+    margin: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .gallery{
+        flex-direction: column;
+    }
+    .item{
+        flex-grow: 0;
+    }
+}

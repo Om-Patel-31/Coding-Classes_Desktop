@@ -1,0 +1,33 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #4a86e8;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "🍇";
+    margin-right: 5px;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: movie-counter;
+    padding-left: 0;
+}
+
+ol li {
+    counter-increment: movie-counter;
+    margin-bottom: 10px;
+}
+
+ol li::before {
+    content: counter(movie-counter) ". ";
+    font-weight: bold;
+}

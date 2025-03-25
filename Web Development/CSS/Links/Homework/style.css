@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:visited{
+    color: cadetblue;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: 2px solid orange;
+}
+
+ul{
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 50px;
+}

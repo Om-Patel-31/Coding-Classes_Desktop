@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+}
+
+.float-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.float-container span {
+    width: 50%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.position-container {
+    position: relative;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.positioned {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-container div {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container div {
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+}

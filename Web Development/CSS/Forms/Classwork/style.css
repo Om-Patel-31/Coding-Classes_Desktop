@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    background-color: lightblue;
+    border: 1px solid back;
+    padding:5px;
+}
+
+input:focus{
+    border-color: blue;
+}
+
+button{
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (max-width:500px) {
+    form, input, button{
+        margin: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
