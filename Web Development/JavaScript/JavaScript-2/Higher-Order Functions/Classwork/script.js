@@ -35,7 +35,7 @@ console.log(sumOfWordsArray);
 // 10.
 console.log("10.");
 const students = {"Chris": 80, "David": 77, "Travis": 88, "Caleb": 95};
-const averageGrade = students.reduce((accumulator, currentValue) =>
+const averageGrade = Object.values(students).reduce((accumulator, currentValue) =>
     accumulator + currentValue, 0) / students.length;
 console.log(averageGrade);
 
