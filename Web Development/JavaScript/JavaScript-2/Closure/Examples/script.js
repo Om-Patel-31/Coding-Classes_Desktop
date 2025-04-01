@@ -46,9 +46,9 @@ function createCounter() {
     },
   };
 }
-let counter = createCounter();
-counter.increment(); // Output: 1
-counter.increment(); // Output: 2
+let myCounter = createCounter();
+myCounter.increment(); // Output: 1
+myCounter.increment(); // Output: 2
 
 function handleClick() {
   let count = 0;
