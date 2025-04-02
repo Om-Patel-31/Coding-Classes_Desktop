@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Examples</title>
+</head>
+<body>
+    <button id="myButton">Click Me</button>
+    <br><br>
+    <button id="myElement">Hello</button>
+    <br><br>
+    <button onclick="alert('Button Clicked!')">Why not click me?</button>
+    <br><br>
+    <form action="index.html" id="myForm">
+        <input type="submit" id="myInput" value="Submit">
+    </form>
+    <br>
+    <a href="#" id="myLink">Click Me!</a>
+    <br>
+    <div id="parent">
+        <br>
+        <button id="child">Child Button</button>
+    </div>
+    <br>
+    <div id="parentList">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+
+    <script src="script.js">
+        // document.getElementById("myButton").onclick = function() {
+        //     alert("Button clicked!");
+        // };
+
+        // document.getElementById("myElement").addEventListener("click", function() {
+        //     alert("Hello!");
+        // });
+
+        // function handleClick() {
+        //     alert("Button clicked!");
+        // }
+
+        // document.getElementById("myButton").addEventListener("click", handleClick);
+        // document.getElementById("myButton").removeEventListener("click", handleClick);
+
+        // document.getElementById("myLink").addEventListener("click",
+        //     function(event) {
+        //         event.preventDefault();
+        //         event.stopPropagation();
+        //         console.log("Link clicked!");
+        // });
+
+        // document.getElementById("parent").addEventListener("click",
+        //     function() {
+        //         console.log("Parent clicked!");
+        // }, true);
+
+        // document.getElementById("child").addEventListener("click",
+        //     function() {
+        //         console.log("Child clicked!");
+        // }, true);
+
+        // document.getElementById("parentList").addEventListener("click",
+        //     function(event) {
+        //         if (event.target.tagName === "LI") {
+        //             console.log("Clicked On: " + event.target.textContent);
+        //         }
+        // });
+    </script>
+</body>
+</html>
